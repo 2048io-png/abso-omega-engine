@@ -1,7 +1,7 @@
 const mod = {
-    primaryName: "ω",
+    primaryName: "Ω",
     secondaryName: "Engine",
-    version: "1.0.0",
+    version: "0.0.0",
     engineVer: "1.0.1", //DO NOT MODIFY
     debugMode: false,
     Infinities: [new Decimal(2).pow(1024), new Decimal("1.8e30008"), new Decimal("1.8e300000008"), new Decimal("ee38")],
@@ -13,7 +13,8 @@ const mod = {
         ["Neon", "css/themes/neon.css"],
         ["Godot Blue", "css/themes/darkblue.css"],
         ["Halloween", "css/themes/spooky.css"],
-        ["eXPerience", "css/themes/experience.css"]
+        ["eXPerience", "css/themes/experience.css"],
+        ["Riot", "css/themes/riot.css"],
     ],
     layerNames: [
         ["Greek",
@@ -46,6 +47,12 @@ const mod = {
             "01",
             "2345"
         ]],
+        ["Prestige Layer",
+         [
+             ["Antimatter", "Infinity", "Eternity", "Reality", "Equality", "Affinity", "Celerity", "Identity", "Vitality", "Immunity", "Meta-"],
+             ["Meta", "Hyper", "Ultra", "Omni", "Mesko", "Omega"],
+             ["Meta", "Ethereal", "Termination", "End"],
+        ]],
         ["Random",
         [
             Utils.createRandomWord(10, new Random(Date.now()).nextInt()),
@@ -63,12 +70,15 @@ const mod = {
         ["Ubuntu", "css/fonts/ubuntu.css"],
         ["Comfortaa", "css/fonts/comfortaa.css"],
         ["Minecraft", "css/fonts/minecraft.css"],
+        ["Cousine", "css/fonts/cousine.css"],
     ],
     saves: [
         ["Save 1", ""],
         ["Save 2", "2"],
         ["Save 3", "3"],
         ["Save 4", "4"],
+        ["Save 5", "5"],
+        ["Cloud Save", "6"],
     ],
     debugClasses: []
 }
