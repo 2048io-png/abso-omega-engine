@@ -42,17 +42,6 @@ Vue.component("news-ticker", {
                 "@here",
                 "Hello, would you like to have some fun, with us right now? Come on, come sing along with us, in this fun time!",
                 "What",
-                "<a href='https://www.youtube.com/watch?v=lEuvYJQ5vog'>how to beat any mario game in 5 hours (real!)</a>",
-                "<a href='https://www.youtube.com/shorts/NTvXsdww_rk'>roblox ads be like</a>",
-                "<a href='https://www.youtube.com/watch?v=dpMnWv8blRo'>how to drive a car easily (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=ij9MkbMSSUk'>how to eat an egg (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=LrL8_b3LZLM'>click to see someone that dead (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=j9V78UbdzWI'>click to eat reese's puffs (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=mNkyhYAwUQg'>click to see snas (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=gub9x8fP6yw'>click to hear epic tune (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=Tt7bzxurJ1I'>click to get a rickrolled (real!)</a>",
-                "<a href='https://www.youtube.com/watch?v=JRHARtLZLk8'>click to get a stickbugged (real!)</a>",
-                "<a href='https://tw.2s4.me'>click here to use textwall</a>,
                 "Wat",
                 "Wot",
                 "No",
@@ -87,6 +76,7 @@ Vue.component("news-ticker", {
                 "Time to run away",
                 "Update when?",
                 "Can you see me?",
+                "Ksidieieisysiwuekdhdjejwkwjwjsnxnnznsksjwjsjsjkejsbrhdhsjsjshsjshsjsiehkshksjejejsjsjekekelepeoeowow9w0w020202030339eosjehkendbdnzjxbdmkdkeusxtjeufrjdgekegejdvrjedjrjrjurururruu4u4u4u39394ieieie929wid9wisudie8w9374882757r8e8sudududusushdhbeeiehieeu8e8w8w7e82ueudur8euw98383yr9e9w8ieusudydidydididudy83993ueheurjduturudur",
                 "Keep Pinging Jeehan, Trust me",
                 "Hello, your save just broke.",
                 "#SaveFunctions",
@@ -125,6 +115,9 @@ Vue.component("news-ticker", {
                 "Where is Jeehan2561?",
                 "Make sure to check out both discord servers",
                 "Can we actually get some new News",
+                "NumbersTWScratch",
+                "Untitled-500",
+                "Fandom",
                 "⬤",
                 "Sheesh",
                 "Lack of Lag",
@@ -234,7 +227,7 @@ Vue.component("news-ticker", {
     computed: {
         animationDuration: function()
         {
-            return 10 + 0.1 * this.currentMessage.replace(/<.*?>/g, "").length;
+            return 5 + 0.05 * this.currentMessage.replace(/<.*?>/g, "").length;
         }
     },
     methods: {
