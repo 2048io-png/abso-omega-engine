@@ -192,7 +192,7 @@ Vue.component("news-ticker", {
                 "Die, frickin pie - PewDiePie",
                 `<span style="color: hsl(0, 100%, 50%)">R</span>`
                 +` <span style="color: hsl(45, 100%, 50%)">A</span>`
-                +` <span style="color: hsl(90, 100%, 50%)">I</span>`
+                +` <span style="color: hsl(90, 100%, 50%)">I</span>`j
                 +` <span style="color: hsl(135, 100%, 50%)">N</span>`
                 +` <span style="color: hsl(180, 100%, 50%)">B</span>`
                 +` <span style="color: hsl(225, 100%, 50%)">O</span>`
