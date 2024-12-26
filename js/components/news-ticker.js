@@ -187,12 +187,13 @@ Vue.component("news-ticker", {
                 "Suggest more messages in the Discord!",
                 "The Cell is the Powerhouse of the Mitochondria",
                 "\"where is the potato layer ?!\" - some pig dude",
+                "\"News Ticker!\" - penthexium56",
                 "\"Imagine quoting your name on your news ticker\" - ???",
                 "\"if you hit a wall, keep hitting\" -winston churchill",
                 "Die, frickin pie - PewDiePie",
                 `<span style="color: hsl(0, 100%, 50%)">R</span>`
                 +` <span style="color: hsl(45, 100%, 50%)">A</span>`
-                +` <span style="color: hsl(90, 100%, 50%)">I</span>`j
+                +` <span style="color: hsl(90, 100%, 50%)">I</span>`
                 +` <span style="color: hsl(135, 100%, 50%)">N</span>`
                 +` <span style="color: hsl(180, 100%, 50%)">B</span>`
                 +` <span style="color: hsl(225, 100%, 50%)">O</span>`
